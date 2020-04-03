@@ -25,6 +25,7 @@ public class Trapeze extends Figures {
 
     @Override
     public String draw() {
-        return "Trapeze, " + "median: " + median() + "," + " square: " + square() + "," + " color: " + color();
+        return "Trapeze, " + "median: " + median() + "," + " square: " + square()
+                + "," + " color: " + color();
     }
 }

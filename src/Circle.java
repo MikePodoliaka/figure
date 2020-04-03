@@ -21,6 +21,7 @@ public class Circle extends Figures {
 
     @Override
     public String draw() {
-        return "Circle, " + "diameter: " + diameter()+"," + " square: " + square()+"," + " color: " + color();
+        return "Circle, " + "diameter: " + diameter()+"," + " square: " + square()
+                +"," + " color: " + color();
     }
 }

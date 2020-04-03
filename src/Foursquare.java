@@ -21,6 +21,7 @@ public class Foursquare extends Figures {
 
     @Override
     public String draw() {
-        return "Foursquare, " + "perimeter: " + perimeter()+"," + " square: " + square()+"," + " color: " + color();
+        return "Foursquare, " + "perimeter: " + perimeter() + "," + " square: "
+                + square() + "," + " color: " + color();
     }
 }

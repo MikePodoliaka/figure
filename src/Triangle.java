@@ -23,6 +23,7 @@ public class Triangle extends Figures {
 
     @Override
     public String draw() {
-        return "Triangle, " + "hypotenuse: " + hypotenuse() + "," + " square: " + square() + "," + " color: " + color();
+        return "Triangle, " + "hypotenuse: " + hypotenuse() + "," + " square: "
+                + square() + "," + " color: " + color();
     }
 }
